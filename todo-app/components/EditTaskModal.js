@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import { useForm } from "react-hook-form";
-import { editTask } from '../services/TodoService'
+import { editTask } from '../services/ToDoService'
 
 export default function EditTaskModal({task, taskEdited}) {
     const [show, setShow] = useState(false);
